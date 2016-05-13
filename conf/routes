@@ -1,0 +1,6 @@
+
+GET     /                           controllers.Application.index()
+
+GET     /redtea/helloWorld          controllers.Application.helloWorld()
+
+POST    /redtea/userRegister        controllers.Application.userRegister()
